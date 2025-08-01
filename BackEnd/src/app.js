@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 
-app.use(cors())
+app.use(cors({origin: "https://code-reviewer-frontend-djj3.onrender.com/"}))
 
 app.use(express.json())
 
